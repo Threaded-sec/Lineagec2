@@ -4,8 +4,8 @@ from flask import*
 from threading import Lock
 # linking sockets and web interface
 
-ip_address = '127.0.0.1'
-port_number= 1234
+ip_address = '127.0.0.1' #replace with your IP
+port_number= 1234 #Replace with your port of choice
 
 thread_index= 0
 THREADS = []
