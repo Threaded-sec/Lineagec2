@@ -1,7 +1,7 @@
 import socket 
 
-ip_address = '127.0.0.1'
-port_number= 1234
+ip_address = '127.0.0.1' # replace with the IP on the server file
+port_number= 1234 #replace with port on server file
 
 
 cs= socket.socket(socket.AF_INET,socket.SOCK_STREAM)
